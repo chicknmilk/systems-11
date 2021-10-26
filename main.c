@@ -1,7 +1,6 @@
 #include "random.h"
 
 int main() {
-    // opens /dev/random and reads a random number
     int size = 10;
     int * arr = generate_random_array(size);
 
@@ -14,8 +13,5 @@ int main() {
     printf("Printing read random array\n");
     print_array(arr, size);
 
-
-
     return 0;
-
 }
